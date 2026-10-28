@@ -1,0 +1,23 @@
+{
+  "name": "ocr-pdf",
+  "version": "1.0.0",
+  "description": "Optical Character Recognition tool for PDF files - extract text from scanned documents and images",
+  "main": "src/index.js",
+  "bin": {
+    "ocr-pdf": "./src/ocr-pdf.js"
+  },
+  "scripts": {
+    "start": "node src/ocr-pdf.js",
+    "test": "node test/test.js"
+  },
+  "keywords": ["pdf", "ocr", "text-extraction", "image-recognition"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.0.0",
+    "jimp": "^0.20.0"
+  },
+  "devDependencies": {
+    "test-reporter-runner": "^1.0.0"
+  }
+}

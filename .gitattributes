@@ -1,0 +1,2 @@
+# Preserve line endings on Windows
+text=x-blob,utf-8,crlf

@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Node modules cache
+.npm-debug.log
+.npm-shrinkwrap.json
+
+# Test coverage
+coverage/
+coverage*.xml
+.nyc_output/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+out/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*~
